@@ -1,0 +1,25 @@
+
+    <configuration>
+        <bean id="edge" class="org.example.project.Edge" scope="singleton">
+            <constructor-arg info="base_info"; >
+        </bean>
+
+    <bean id="weightedEdge" class="org.example.project.WeightedEdge" scope="singleton">
+        <constructor-arg info="base_info"; >
+    </bean>
+
+    <bean id="weightedVertice" class="org.example.project.WeightedVertice" scope="singleton">
+        <constructor-arg info="base_info"; >
+    </bean>
+    <bean id="vertice" class="org.example.project.Vertice" scope="singleton">
+        <constructor-arg name="base_name"; >
+    </bean>
+
+    <bean id="weightedGraph" class="org.example.project.WeightedGraph" scope="prototype">
+
+    </bean>
+
+    <bean id="unweightedGraph" class="org.example.project.UnweightedGraph" scope="prototype">
+
+    </bean>
+        </configuration>
